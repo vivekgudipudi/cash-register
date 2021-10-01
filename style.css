@@ -10,6 +10,7 @@ body {
 .container{
     padding-left: 1rem;
     padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 
 .navigation{
@@ -38,7 +39,8 @@ body {
     font-weight: bold;
     font-size: large;
     text-align: center;
-    padding: 1rem;
+    padding: 0.2rem 1rem;
+
 }
 
 input{
@@ -73,6 +75,7 @@ caption{
     font-weight: bolder;
     font-size: large;
     padding: 1rem;
+    padding-top: 0%;
 }
 
 table{
@@ -81,6 +84,7 @@ table{
     border-radius: 0.5rem;
     padding: 0.5rem;
     background-color: #A7F3D0;
+    border-bottom: 2rem;
 
 }
 
@@ -88,7 +92,7 @@ td,th{
     /* border: 1px solid black; */
     padding: 0.3rem;
     border-radius: 0.5rem;
-    min-width: 3rem;
+    /* min-width: 3rem; */
     align-items: center;
 
     
