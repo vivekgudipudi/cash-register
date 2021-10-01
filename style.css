@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.navigation{
+    background-color:#A7F3D0;
+    color: black;
+    padding: 1rem;
+    border-bottom-left-radius:1rem ;
+    border-bottom-right-radius:1rem ;
+}
+
+.container-center {
+    max-width: 600px;
+    margin: auto;
+
+}
+
+.heading {
+    text-align: center;
+    color: black;
+    max-height: 5vh;
+    
+}
+
+.label{
+    display: block;
+    font-weight: bold;
+    font-size: large;
+    text-align: center;
+    padding: 1rem;
+}
+
+input{
+    max-width: 15rem;
+    border-radius: 0.5rem;
+    border: 3px solid #A7F3D0;
+    outline: #A7F3D0;
+    padding: 0.5rem 1rem;
+    display: block;
+    
+}
+
+.input-div{
+    display: block;
+    margin: auto;
+    max-width: 12rem;
+}
+
+.button{
+    background-color: #A7F3D0;
+    border: 1.px solid black;
+    border-radius: 0.3rem;
+    padding: 0.3rem 0.5rem;
+    cursor: pointer;
+    display: block;
+    min-width: 5rem;
+    font-size: medium;
+    margin: auto;
+}
+
+caption{
+    font-weight: bolder;
+    font-size: large;
+    padding: 1rem;
+}
+
+table{
+    margin: 1rem;
+    /* border: 1px solid black; */
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    background-color: #A7F3D0;
+
+}
+
+td,th{
+    /* border: 1px solid black; */
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+    min-width: 3rem;
+    align-items: center;
+
+    
+}
+
+.footer {
+    background-color: #A7F3D0;
+    padding: 2rem 1rem;
+    text-align: center;
+    color: black;
+    border-top-right-radius: 1rem;
+    border-top-left-radius:1rem ;
+}
+
+
+.footer .link {
+    color: black;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer .footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.list-non-bullet {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding: 0rem 0.5rem;
+
+}
+
